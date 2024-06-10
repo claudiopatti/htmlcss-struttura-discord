@@ -12,17 +12,184 @@ reset
 general 
 */
 
-.container {
-    width: 1000px;
+.background-celeste {
+    background-color: #add8e6;
+    padding: 10px 0;
 }
+
+.container > * {
+    padding: 5px;
+    
+}
+
+.background-blu {
+    background-color: #00008b;
+    padding: 30px 0;
+
+}
+
+
+.casella-celeste {
+    background-color: #1e90ff;
+    width: 60%;
+    min-height: 300px;
+    border: 2px dashed black;
+}
+
+.casella-pink {
+
+    background-color: #ffc0cb;
+    width: 40%;
+    min-height: 300px;
+    border: 2px dashed black;
+}
+
+.container-caselle {
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+   
+
+}
+
+.background-lightblack {
+    background-color: #23272a;
+    margin: 0 auto;
+    padding-top: 10px;
+    
+    
+}
+
 /*
  header 
 */
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #daa520;
+    border: 2px dashed black;
+
+}
+
+.container .logo {
+    width: 20%;
+    border-right: 2px dashed black;
+    text-align: left;
+
+
+    
+}
+
+.container .link {
+    width: 60%;
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
+    text-align: center;
+  
+}
+
+.container .login {
+    width: 20%;
+    border-left: 2px dashed black;
+    text-align: end;
+    
+}
+
 
 /*
  main  
 */
 
+.casella-fucsia {
+    background-color: #ee82ee;
+    border: 2px dashed black;
+    width: 700px;
+    min-height: 250px;
+    margin: 0px auto;
+
+}
+
+
+.background-gray {
+    background-color: #d3d3d3;
+    margin: 0 auto;
+    display: flex;
+}
+
+.casella-verde {
+    background-color: #228b22;
+    width: 800px;
+    margin: auto;
+    display: flex;
+    min-height: 500px;
+    border: 2px dashed black;
+   
+
+}
+
 /*
 footer  
 */
+
+.casella-carne {
+    background-color: #f08080;
+    border: 2px dashed black;
+    width: 30%;
+    min-height: 400px;
+    
+
+}
+
+.casella-lightgreen {
+    background-color: #20b2aa;
+    border: 2px dashed black;
+    width: 70%;
+    min-height: 400px;
+    display: flex;
+}
+
+.casella-lightgreen > * {
+    border: 2px dashed white;
+    width: calc(100% / 4);
+    display: flex;
+}
+
+.container-caselle-footer {
+    width: 800px;
+    margin: 0px auto 30px ;
+    display: flex;
+   
+}
+
+.background-acqua {
+    background-color: #5db094;
+    width: 800px;
+    min-height: 60px;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.tasto-logo {
+    background-color: #e6a5af;
+    border: 2px dashed black;
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+}
+
+.tasto-bottone {
+    background-color: #e6a5af;
+    border: 2px dashed black;
+    padding: 5px;
+    height: 30px;
+    text-align: center;
+}
+
+
+
