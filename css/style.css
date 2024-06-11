@@ -87,7 +87,10 @@ general
     border-right: 2px dashed black;
     border-left: 2px dashed black;
     text-align: center;
-  
+}
+
+.container .link a {
+    text-decoration: none;
 }
 
 .container .login {
@@ -163,6 +166,12 @@ footer
    
 }
 
+.riga {
+    border: 1px solid white;
+    width: 800px;
+    margin: 0 auto;
+}
+
 .background-acqua {
     background-color: #5db094;
     width: 800px;
@@ -175,21 +184,14 @@ footer
 
 }
 
-.tasto-logo {
+.background-acqua > * {
     background-color: #e6a5af;
     border: 2px dashed black;
     padding: 5px;
-    height: 30px;
+    
     text-align: center;
 }
 
-.tasto-bottone {
-    background-color: #e6a5af;
-    border: 2px dashed black;
-    padding: 5px;
-    height: 30px;
-    text-align: center;
-}
 
 
 
